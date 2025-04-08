@@ -3,5 +3,5 @@
 A minimal CLI that reminds people you use Arch.
 
 ```bash
-curl -s https://github.com/DevNathan/I-use-Arch-btw/blob/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/DevNathan/I-use-Arch-btw/refs/heads/main/install.sh | bash
 ```
