@@ -9,7 +9,7 @@ REPO_URL="https://github.com/DevNathan/I-use-Arch-btw/releases/download/archbtw/
 mkdir -p "$BIN_DIR"
 
 echo "⬇ Downloading archbtw..."
-curl -fsSL "$REPO_URL/archbtw" -o "$TARGET"
+curl -fsSL "$REPO_URL" -o "$TARGET"
 chmod +x "$TARGET"
 
 echo "Installed to $TARGET"
