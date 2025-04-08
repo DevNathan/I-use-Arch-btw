@@ -4,7 +4,7 @@ set -e
 
 BIN_DIR="$HOME/.local/bin"
 TARGET="$BIN_DIR/archbtw"
-REPO_URL="https://raw.githubusercontent.com/DevNathan/I-use-Arch-btw/main/archbtw"
+REPO_URL="https://raw.githubusercontent.com/DevNathan/I-use-Arch-btw/main"
 
 mkdir -p "$BIN_DIR"
 
