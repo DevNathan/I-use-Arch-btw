@@ -4,12 +4,12 @@ set -e
 
 BIN_DIR="$HOME/.local/bin"
 TARGET="$BIN_DIR/archbtw"
-REPO_URL="https://github.com/DevNathan/I-use-Arch-btw/releases/download/archbtw/archbtw"
+REPO_URL="https://github.com/DevNathan/I-use-Arch-btw/releases/download/archbtw"
 
 mkdir -p "$BIN_DIR"
 
 echo "⬇ Downloading archbtw..."
-curl -fsSL "$REPO_URL" -o "$TARGET"
+curl -fsSL "$REPO_URL/archbtw" -o "$TARGET"
 chmod +x "$TARGET"
 
 echo "Installed to $TARGET"
